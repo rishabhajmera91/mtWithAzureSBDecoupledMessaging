@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{43D954D2-0F29-4BC4-8CFD-758345BC504E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{C3D28C73-4DB9-430A-8673-93B97C664915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPublisher", "TestPublisher\TestPublisher.csproj", "{AD366E76-3C4F-49C9-AA03-36FE23580E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSubscriber", "TestSubscriber\TestSubscriber.csproj", "{DC337CC9-51BD-4A20-9094-631017F570BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{99F9671E-E87F-4CB4-97ED-92C6D2058088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Common", "Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj", "{BCA50087-C45A-4DA5-80FC-7978B6F38436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrasctructure.MasstransitServiceBus", "Infrastructure\Infrasctructure.MasstransitServiceBus\Infrasctructure.MasstransitServiceBus.csproj", "{D81D232F-B4FD-4E0C-B2FE-35F93AF4D13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.UnityContainer", "Infrastructure\Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj", "{34897E91-6FDF-4A24-9151-7F54540A0F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publisher", "Publisher", "{38E10CAE-E0D5-46ED-AED7-713CF4AFD389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPublisher.Main", "TestPublisher.Main\TestPublisher.Main.csproj", "{127D71F2-839E-4A27-8FD6-081D3732BE1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscriber", "Subscriber", "{D19286E4-EE4E-4BB8-A925-4B03F9524806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSubscriber.Main", "TestSubscriber.Main\TestSubscriber.Main.csproj", "{406B6160-EA6F-4974-9B92-5CA6CC1E843C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSubscriber.AppService", "TestSubscriber.AppService\TestSubscriber.AppService.csproj", "{4123918C-745E-431D-BDA2-698F7778090D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rishabhcqrssample-tfs.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Contracts\\Contracts.csproj
+		SccProjectName1 = Contracts
+		SccLocalPath1 = Contracts
+		SccProjectUniqueName2 = TestPublisher\\TestPublisher.csproj
+		SccProjectTopLevelParentUniqueName2 = MtPubSubAzureExample.sln
+		SccProjectName2 = TestPublisher
+		SccLocalPath2 = TestPublisher
+		SccProjectUniqueName3 = TestSubscriber\\TestSubscriber.csproj
+		SccProjectTopLevelParentUniqueName3 = MtPubSubAzureExample.sln
+		SccProjectName3 = TestSubscriber
+		SccLocalPath3 = TestSubscriber
+		SccProjectUniqueName4 = Infrastructure\\Infrastructure.Common\\Infrastructure.Common.csproj
+		SccProjectTopLevelParentUniqueName4 = MtPubSubAzureExample.sln
+		SccProjectName4 = Infrastructure/Infrastructure.Common
+		SccLocalPath4 = Infrastructure\\Infrastructure.Common
+		SccProjectUniqueName5 = Infrastructure\\Infrasctructure.MasstransitServiceBus\\Infrasctructure.MasstransitServiceBus.csproj
+		SccProjectTopLevelParentUniqueName5 = MtPubSubAzureExample.sln
+		SccProjectName5 = Infrastructure/Infrasctructure.MasstransitServiceBus
+		SccLocalPath5 = Infrastructure\\Infrasctructure.MasstransitServiceBus
+		SccProjectUniqueName6 = Infrastructure\\Infrastructure.UnityContainer\\Infrastructure.UnityContainer.csproj
+		SccProjectTopLevelParentUniqueName6 = MtPubSubAzureExample.sln
+		SccProjectName6 = Infrastructure/Infrastructure.UnityContainer
+		SccLocalPath6 = Infrastructure\\Infrastructure.UnityContainer
+		SccProjectUniqueName7 = TestPublisher.Main\\TestPublisher.Main.csproj
+		SccProjectTopLevelParentUniqueName7 = MtPubSubAzureExample.sln
+		SccProjectName7 = TestPublisher.Main
+		SccLocalPath7 = TestPublisher.Main
+		SccProjectUniqueName8 = TestSubscriber.Main\\TestSubscriber.Main.csproj
+		SccProjectTopLevelParentUniqueName8 = MtPubSubAzureExample.sln
+		SccProjectName8 = TestSubscriber.Main
+		SccLocalPath8 = TestSubscriber.Main
+		SccProjectUniqueName9 = TestSubscriber.AppService\\TestSubscriber.AppService.csproj
+		SccProjectTopLevelParentUniqueName9 = MtPubSubAzureExample.sln
+		SccProjectName9 = TestSubscriber.AppService
+		SccLocalPath9 = TestSubscriber.AppService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3D28C73-4DB9-430A-8673-93B97C664915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D28C73-4DB9-430A-8673-93B97C664915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D28C73-4DB9-430A-8673-93B97C664915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D28C73-4DB9-430A-8673-93B97C664915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD366E76-3C4F-49C9-AA03-36FE23580E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD366E76-3C4F-49C9-AA03-36FE23580E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD366E76-3C4F-49C9-AA03-36FE23580E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD366E76-3C4F-49C9-AA03-36FE23580E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC337CC9-51BD-4A20-9094-631017F570BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC337CC9-51BD-4A20-9094-631017F570BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC337CC9-51BD-4A20-9094-631017F570BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC337CC9-51BD-4A20-9094-631017F570BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA50087-C45A-4DA5-80FC-7978B6F38436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA50087-C45A-4DA5-80FC-7978B6F38436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA50087-C45A-4DA5-80FC-7978B6F38436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA50087-C45A-4DA5-80FC-7978B6F38436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81D232F-B4FD-4E0C-B2FE-35F93AF4D13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81D232F-B4FD-4E0C-B2FE-35F93AF4D13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81D232F-B4FD-4E0C-B2FE-35F93AF4D13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81D232F-B4FD-4E0C-B2FE-35F93AF4D13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34897E91-6FDF-4A24-9151-7F54540A0F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34897E91-6FDF-4A24-9151-7F54540A0F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34897E91-6FDF-4A24-9151-7F54540A0F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34897E91-6FDF-4A24-9151-7F54540A0F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127D71F2-839E-4A27-8FD6-081D3732BE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127D71F2-839E-4A27-8FD6-081D3732BE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127D71F2-839E-4A27-8FD6-081D3732BE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127D71F2-839E-4A27-8FD6-081D3732BE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406B6160-EA6F-4974-9B92-5CA6CC1E843C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406B6160-EA6F-4974-9B92-5CA6CC1E843C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406B6160-EA6F-4974-9B92-5CA6CC1E843C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406B6160-EA6F-4974-9B92-5CA6CC1E843C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4123918C-745E-431D-BDA2-698F7778090D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4123918C-745E-431D-BDA2-698F7778090D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4123918C-745E-431D-BDA2-698F7778090D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4123918C-745E-431D-BDA2-698F7778090D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD366E76-3C4F-49C9-AA03-36FE23580E37} = {38E10CAE-E0D5-46ED-AED7-713CF4AFD389}
+		{DC337CC9-51BD-4A20-9094-631017F570BB} = {D19286E4-EE4E-4BB8-A925-4B03F9524806}
+		{BCA50087-C45A-4DA5-80FC-7978B6F38436} = {99F9671E-E87F-4CB4-97ED-92C6D2058088}
+		{D81D232F-B4FD-4E0C-B2FE-35F93AF4D13B} = {99F9671E-E87F-4CB4-97ED-92C6D2058088}
+		{34897E91-6FDF-4A24-9151-7F54540A0F64} = {99F9671E-E87F-4CB4-97ED-92C6D2058088}
+		{127D71F2-839E-4A27-8FD6-081D3732BE1B} = {38E10CAE-E0D5-46ED-AED7-713CF4AFD389}
+		{406B6160-EA6F-4974-9B92-5CA6CC1E843C} = {D19286E4-EE4E-4BB8-A925-4B03F9524806}
+		{4123918C-745E-431D-BDA2-698F7778090D} = {D19286E4-EE4E-4BB8-A925-4B03F9524806}
+	EndGlobalSection
+EndGlobal

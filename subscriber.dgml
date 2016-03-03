@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Contracts\Contracts.csproj" Category="CSProject" Bounds="-35.0876254274791,341.672706995098,90.3,25" Group="Collapsed" Label="Contracts" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Contracts\bin\Debug\Contracts.dll" Bounds="-463.683527001958,22.7697742240191,85.78,25.96" Label="Contracts.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrasctructure.MasstransitServiceBus\Infrasctructure.MasstransitServiceBus.csproj" Category="CSProject" Bounds="403.387703224249,388.672806993098,235.47,25" Group="Collapsed" Label="Infrasctructure.MasstransitServiceBus" UseManualLocation="True">
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrasctructure.MasstransitServiceBus\bin\Debug\Infrasctructure.MasstransitServiceBus.dll" Bounds="454.291694125634,372.29773132759,230.95,25.9600000000003" Label="Infrasctructure.MasstransitServiceBus.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Category="CSProject" Bounds="427.204412073373,233.673006993098,162.546666666667,25" Group="Collapsed" Label="Infrastructure.Common" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\bin\Debug\Infrastructure.Common.dll" Bounds="337.765394630067,533.317959939155,158.026666666667,25.96" Label="Infrastructure.Common.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj" Category="CSProject" Bounds="576.212474572521,453.672906993098,192.976666666667,25" Group="Collapsed" Label="Infrastructure.UnityContainer" UseManualLocation="True">
+      <Category Ref="Category5" />
+    </Node>
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.UnityContainer\bin\Debug\Infrastructure.UnityContainer.dll" Bounds="454.010131286728,457.249388517168,188.456666666666,25.9600000000001" Label="Infrastructure.UnityContainer.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.AppService\TestSubscriber.AppService.csproj" Category="CSProject" Bounds="115.484269890915,365.672806993098,178.903333333333,25" Group="Collapsed" Label="TestSubscriber.AppService" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.AppService\bin\Debug\TestSubscriber.AppService.dll" Bounds="208.528513019501,375.421213574776,174.383333333333,25.96" Label="TestSubscriber.AppService.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Category="CSProject" Bounds="140.350466784672,482.672706995098,146.34,25" Group="Collapsed" Label="TestSubscriber.Main" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\bin\Debug\TestSubscriber.Main.dll" Bounds="6.81999999999965,407.02,141.82,25.96" Label="TestSubscriber.Main.dll" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber\TestSubscriber.csproj" Category="CSProject" Bounds="157.492963195045,573.672706995098,117.16,25" Group="Collapsed" Label="TestSubscriber" UseManualLocation="True" />
+    <Node Id="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber\bin\Debug\TestSubscriber.exe" Bounds="351.971440131391,208.815342724457,117.82,25.96" Label="TestSubscriber.exe" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Contracts\Contracts.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Contracts\bin\Debug\Contracts.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Contracts\Contracts.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Bounds="54.7143071586001,260.578950672908,387.280440968891,83.9183016592748" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrasctructure.MasstransitServiceBus\Infrasctructure.MasstransitServiceBus.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrasctructure.MasstransitServiceBus\bin\Debug\Infrasctructure.MasstransitServiceBus.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrasctructure.MasstransitServiceBus\Infrasctructure.MasstransitServiceBus.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Bounds="510.22929454933,267.643206476107,9.87365269639923,121.029600516991" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\bin\Debug\Infrastructure.Common.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Bounds="528.43603515625,264.816680908203,140.986022949219,188.856231689453" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.UnityContainer\bin\Debug\Infrastructure.UnityContainer.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.AppService\TestSubscriber.AppService.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Contracts\Contracts.csproj" Bounds="64.1448866057119,360.833362672132,52.6340662919519,6.48226902326053" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.AppService\TestSubscriber.AppService.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Bounds="233.680469584253,262.262115972461,237.799361868291,103.410691020637" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.AppService\TestSubscriber.AppService.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.AppService\bin\Debug\TestSubscriber.AppService.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Contracts\Contracts.csproj" Bounds="35.4967113723468,371.799145195629,159.9866904999,110.873561799469" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrasctructure.MasstransitServiceBus\Infrasctructure.MasstransitServiceBus.csproj" Bounds="254.425063017358,416.303038118641,217.185960599086,66.3696688764573" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Bounds="228.327576924748,264.478608949783,258.465923333717,218.194098045315" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.UnityContainer\Infrastructure.UnityContainer.csproj" Bounds="286.690466784672,472.833953503579,280.539903094164,17.717659824997" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.AppService\TestSubscriber.AppService.csproj" Bounds="206.511666711091,399.648678766368,6.09164862441889,83.0240282287303" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\bin\Debug\TestSubscriber.Main.dll" Category="Contains" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber\TestSubscriber.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\Infrastructure\Infrastructure.Common\Infrastructure.Common.csproj" Bounds="226.823148497045,265.496623752313,265.03600004035,308.176083242785" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber\TestSubscriber.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber.Main\TestSubscriber.Main.csproj" Bounds="214.123429874057,516.669168620291,1.59891568220087,57.0035383748076" />
+    <Link Source="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber\TestSubscriber.csproj" Target="C:\Rishabh\cqrssampleProject\Decoupled\MassTransit PubSub\TestSubscriber\bin\Debug\TestSubscriber.exe" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CSProject" Background="#FF3A8F35" />
+    <Category Id="Category5" Label="Category 5" Background="#FF9B4F96" IsTag="True" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 5" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FF9B4F96" />
+    </Style>
+  </Styles>
+</DirectedGraph>
