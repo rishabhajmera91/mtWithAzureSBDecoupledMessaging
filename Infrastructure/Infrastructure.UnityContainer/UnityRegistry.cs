@@ -4,11 +4,11 @@ using Microsoft.Practices.Unity;
 
 namespace Infrastructure.UnityContainer
 {
-    public class UnityRegistrar : RegistrarBase
+    public class UnityRegistry : RegistryBase
     {
         private readonly IUnityContainer _container;
 
-        public UnityRegistrar(IUnityContainer container)
+        public UnityRegistry(IUnityContainer container)
         {
             _container = container;
         }
@@ -18,14 +18,14 @@ namespace Infrastructure.UnityContainer
             return _container.IsRegistered(typeToCheck, name);
         }
 
-        public override IDependencyRegistrar Register(Type from, Type to, string name = null)
+        public override IDependencyRegistry Register(Type from, Type to, string name = null)
         {
             _options.From = from;
             _options.To = to;
             return Register(name);
         }
 
-        public override IDependencyRegistrar Register(string name = null)
+        public override IDependencyRegistry Register(string name = null)
         {
             SetName(name);
             RegisterFromOptions();

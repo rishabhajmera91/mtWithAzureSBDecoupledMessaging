@@ -43,12 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IoC\DependencyRegistrarOptions.cs" />
-    <Compile Include="IoC\IContainer.cs" />
-    <Compile Include="IoC\IDependencyRegistrar.cs" />
+    <Compile Include="IoC\DependencyRegistryOptions.cs" />
+    <Compile Include="IoC\IDependencyContainer.cs" />
+    <Compile Include="IoC\IDependencyRegistry.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="IoC\IDependencyResolver.cs" />
     <Compile Include="IoC\IoC.cs" />
-    <Compile Include="IoC\RegistrarBase.cs" />
+    <Compile Include="IoC\RegistryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceBus\ICommand.cs" />
     <Compile Include="ServiceBus\IEvent.cs" />

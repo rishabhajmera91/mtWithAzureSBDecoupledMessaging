@@ -2,7 +2,7 @@
 
 namespace Infrastructure.Common.IoC
 {
-    public class DependencyRegistrarOptions
+    public class DependencyRegistryOptions
     {
         public string Name { get; set; }
         public Type From { get; set; }

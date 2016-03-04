@@ -1,8 +1,8 @@
 ﻿namespace Infrastructure.Common.IoC
 {
-    public interface IContainer
+    public interface IDependencyContainer
     {
-        IDependencyRegistrar Registrar { get; set; }
+        IDependencyRegistry Registry { get; set; }
         IDependencyResolver Resolver { get; set; }
         object Container { get; }        
     }
